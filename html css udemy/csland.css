@@ -1,0 +1,448 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    position: fixed;
+    width: 100%;
+}
+
+.aboveheader{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+    
+
+}
+.aboveheader i{
+    cursor: pointer;
+    color: white;
+    border-radius: 10px;
+    background-color: gray;
+    
+    
+}
+.aboveheader li{
+    display: inline-block;
+    padding: 20px;
+    
+    
+}
+.aboveheader a{
+    color: white;
+    border-radius: 0;
+    
+}
+.btn{
+    background-color:  gray;
+    padding: 10px;
+    border-radius: 10px;
+}
+.li-btn{
+   background-color: gray;
+   height: 50%;
+   border-radius: 10px;
+}
+.aboveheader .title{
+    margin-left: 20px;
+    font-size: 30px;
+} 
+#button-green{
+    color: black;
+    padding: 15px;
+    background-color:  green;
+    border-radius: 10px;
+}
+
+
+
+
+.header{
+    margin-top: 0px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    color: black;
+    height: 70px;
+    box-shadow: 2px 2px 2px;
+    
+}
+#logo{
+    margin-left: 45px;
+}
+.header li{
+    display: inline-block;
+    margin-right: 30px;
+}
+.header a{
+    color: black;
+    
+    
+}    
+
+
+
+
+.home{
+    height: 800px;
+    display: flex;
+    
+    
+    
+    background-color: #0a1128;
+    color: white;
+}
+.home h2{
+    font-size: 50px;
+}
+.home p{
+    line-height: 30px;
+    margin-top: 50px;
+    font-size: 20px;
+}
+.home aside{
+    margin-left: 50px;
+    margin-top: 150px;
+    margin-right: 80px;
+}
+.home img{
+    width: 600px;
+    height: 600px;
+    margin-right: 30px;
+    margin-top: 50px;
+}
+
+
+
+
+.intro{
+    height: 750px;
+    display: flex;
+    margin-top: 50px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.tittle-intro{
+    font-size: 50px;
+}
+.text-intro{
+    margin-top: 30px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 20px;
+    padding: 20px;
+    max-width: 400px;
+    max-height: 700px;
+}
+
+
+
+
+.top3{
+    
+     
+    height: 750px;
+    background-color: #0a1128;
+    color: white;
+
+}
+.tittle-top3{
+    margin-left: 50px;
+    margin-top: 50px;
+    font-size: 30px;
+    line-height: 60px;
+    
+}
+.tittle-top3 p{
+    line-height: 500px;
+}
+.main-top3{
+    margin-top: 100px;
+    padding: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin-bottom: 400px;
+    
+}
+.main-top3 h1{
+    font-size: 40px;
+}
+.main-top3 p{
+    font-size: 20px;
+}
+
+
+
+
+.gallery{
+    margin-top: 100px;
+    color: black;
+    margin-left: 50px;
+   display: grid;
+
+}
+.gallery h1{
+    font-size: 50px;
+    line-height: 70px;
+}
+.gallery h5{
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+
+.main-gallery{
+    
+    margin-top: 40px;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+   
+}
+.gallery img{
+    width: 300px;
+    width: 350px;
+    padding: 10px;
+}
+
+
+
+
+
+.work{
+    color: white;
+    background-color: #0a1128;
+    height: 750px;
+    margin-top: 50px;
+}
+.tittle-work{
+    margin-top: 50px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+.work-container{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 50px;
+}
+.work-container h1{
+    font-size: 30px;
+    padding: 20px;
+}
+.work p{
+    font-size: 1.5rem;
+}
+
+
+
+
+
+
+.pricing{
+    color: black;
+    background-color: white;
+    height: 750px;
+    margin-top: 90px;
+}
+.pricing h3{
+    background-color: lightgray;
+}
+.tittle-pricing{
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+}
+.text-pricing{
+    margin-top: 60px;
+      text-align: center;
+      font-size: 20px;
+      line-height: 30px;
+}
+.main-pricing{
+     margin-top: 70px;
+     font-size: 20px;
+     margin-left: 50px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+}
+.container-pricing{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding: 10px;
+    line-height: 5px;
+    grid-gap: 70px;
+    border: solid lightgray;
+}
+
+
+
+
+.contact{
+    height: 900px;
+    
+    padding: 50px;
+    background-color: #0a1128;
+    color: white;
+}
+
+.tittle-contact{
+   
+    font-size: 30px;
+}
+.text-contact{
+    margin-top: 50px;
+    font-size: 30px;
+}
+.main-contact{
+    margin-top: 60px;
+}
+.form-name{
+    display: flex;
+    flex-direction: row;
+    
+}
+.contact form{
+    margin-top: 40px;
+    line-height: 50px;
+}
+
+
+
+
+
+.end{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 100px;
+    background-color: white;
+    color: black;
+}
+
+
+.body-login{
+    background-color: #1b1f27;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+}
+.body-login i{
+    color: white;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    
+}
+.login{
+    margin-top: 100px;
+    margin-left: 400px;
+    background-color: #181920; 
+    height: 600px;
+    width: 400px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    
+}
+.tittle-login{
+    color: white;
+    margin-bottom: 30px;
+    
+   
+}
+.main-login{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 79%;
+}
+
+.main-login form{
+     display: flex;
+     flex-direction: column;
+     height: 100%;
+}
+
+.main-login input{
+     margin-top: 10px;
+     border: none;
+     outline: none;
+     border-radius: 10px;
+     height: 100%;
+}
+.main-login P{
+    margin-top: 10PX;
+} 
+
+form[type="submit"]{
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+}
+p{
+
+}
+
+
+
+
+
